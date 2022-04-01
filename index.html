@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    ul, ol, li {
+      list-style: none;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif, Arial;
+      background: #222;
+      color: #fefefe;
+    }
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+    .wrapper {
+      height: 100vh;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 42px;
+    }
+    h2 {
+      font-size: 32px;
+      margin: 24px 0;
+    }
+    h5 {
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
+    ul {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    ul li {
+      padding: 10px 3px;
+      background: #fff;
+      color: #111;
+      max-width: 100px;
+      width: 100%;
+      border-radius: 3px;
+      transition: all .3s ease;
+    }
+    ul > li:hover {
+    box-shadow: #fff 0px 0px 10px;
+    }
+  </style>
+  
+</head>
+<body>
+  
+  <div class="wrapper">
+    <h1>Джекенов Даурен</h1>
+    <h2>PKS 1-20</h2>
+
+    <div class="links">
+      <h5>Ссылки на работы:</h5>
+      <ul>
+        <li>
+          <a href="mypholio/index.html" class="link">MyPholio</a></li>
+        <li>
+          <a href="lesson/index.html" class="link">Lesson</a>
+        </li>
+        <li>
+          <a href="flat/index.html" class="link">Flat</a>
+        </li>
+        <li>
+          <a href="BS/index.html" class="link">BootStrap</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
